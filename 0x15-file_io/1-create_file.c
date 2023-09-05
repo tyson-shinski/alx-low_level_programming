@@ -54,7 +54,7 @@ int create_file(const char *filename, char *text_content)
 
 		{
 
-			write(1, "fails", 6);
+			write(1, "fails\n", 6);
 
 			return (-1);
 
